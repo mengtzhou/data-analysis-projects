@@ -6,7 +6,7 @@ Detecting housing fraud is an important component of monitoring housing markets.
 
 This project constructs a model to predict the expected cost of houses in TWD at the time of scale with detailed methods and steps, tests the accuracy of the model and explains how different factors can influence housing price based on the model. Our analyses conclude that a generalized additive model with splines can fit the housing data well. The influences of transaction date, house age, distance to nearest MRT station, and longitude and latitude on the housing price are wiggly. The influence of number of stores within living circle on foot on the housing price is roughly linear. A integrated function that predicts house prices is provided, and examples and documentation are provided after the main body of the report.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/housing-price-prediction-fraud-detection.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/housing-price-prediction-fraud-detection.pdf">See Report</a>
 
 <img src="./img/house-price-2.png" alt="" width="700"/>
 <img src="./img/house-price-1.png" alt="" width="700"/>
@@ -19,7 +19,7 @@ Figure out the relationship between price and laptop specifics (processor speed,
 
 It is found that the prices of laptops that are buy-it-now, still not sold and have a solid-state hard drive and higher speed of processor are higher. The best price for an unsold laptop with a large hard drive is around \$410.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/buying-a-laptop-from-eBay.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/buying-a-laptop-from-eBay.pdf">See Report</a>
 
 <img src="./img/laptop-eBay-2.png" alt="" width="400"/>
 <img src="./img/laptop-eBay-1.png" alt="" width="700"/>
@@ -28,7 +28,7 @@ It is found that the prices of laptops that are buy-it-now, still not sold and h
 
 Diabetic retinopathy is a diabetes complication that affects eyes, which is caused by damage to the blood vessels of the light-sensitive tissue at the retina or back of the eye. It can lead to blindness if not treated in time. Ophthalmologists at Michigan Medicine conducted a medical study to explore the impact of two eye laser treatments (xenon and argon) on delaying vision loss caused by diabetic retinopathy. This projects aims to analyze the data of 197 participants of this medical study, who presented high-risk diabetic retinopathy, to determine the efficacy of treatment type on visual acuity, quantify the improvement between eyes by treatment type, and better understand the impacts of age at diagnosis and clinical risk of diabetic retinopathy on visual acuity. We performed survival analysis and modeled the probability of vision loss for the censored data, and we concluded that laser treatment can help delay vision loss caused by diabetic retinopathy and risk of diabetic retinopathy has an impact on visual acuity.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/Impact-of-Eye-Laser-Treatment.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/Impact-of-Eye-Laser-Treatment.pdf">See Report</a>
 
 <img src="./img/eye-laser-1.png" alt="" width="700"/>
 
@@ -38,7 +38,7 @@ Kickstarter is a global crowdfunding platform focused on creativity and it could
 
 This project explores what generally makes for a successful campaign using past Kickstarter campaign data and then predicts the chance of success for a new community-based business aiming to raise at least \$25,000 from at least 1000 backers in Detroit. Our analyses conclude that the funding goal, the length of project name, the month and weekday of the deadline, the year, month and weekday of creating date, and the time span from launching the campaign to deadline have impacts on the Kickstarter success. The chance of success of the new community-based business is predicted as 0.665.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/factors-associated-with-Kickstarter-success.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/factors-associated-with-Kickstarter-success.pdf">See Report</a>
 
 <img src="./img/kickstarter-1.png" alt="" width="500"/>
 
@@ -46,7 +46,7 @@ This project explores what generally makes for a successful campaign using past 
 
 Drug use/misuse has become common in the twenty-first century, and identifying factors that increases an individual’s risk of drug consumption has become ever important. In this project, we aim to apply four classification models to UCI Machine Learning Repository’s Drug Consumption data set. Using logistic regression, k-nearest neighbors (KNN), support vector machines (SVM), and random forests, we seek to highlight the similarities and differences between these four models. Our findings indicate that different models will find similar variables more important and personality traits play an important role in classifying drug users. Nevertheless, all models found it easier to correctly classify those with heavy drug use (defined as using more than 5 different drugs in their lifetime) than those with less drug use. This perhaps implies that heavy drug users are characteristics that are more similar, making them easier to classify. Finally, we find that our logistic regression and KNN models have lower errors than our SVM and random forest models. This gives credence to Occam’s Razor which states that at times simpler models are better.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/drug-use-clarification.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/drug-use-clarification.pdf">See Report</a>
 
 <img src="./img/drug-use-1.png" alt="" width="500" height="300"/>
 <img src="./img/drug-use-2.png" alt="" width="500"/>
@@ -61,7 +61,7 @@ We solved three questions:
 + Observe the trend for mean daily return for these 10 stocks over years, in other words, whether the mean daily return for each year is steady or fluctuate dramatically; 
 + Examine whether the risks for these 10 stocks are the same based on CAPM model and find out whether the market return, size premiumand value premium are significant for the return of stock, in other words, how well the three factor model works based on Fama and French Three Factor Model.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/stock-daily-return.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/stock-daily-return.pdf">See Report</a>
 
 <img src="./img/stock-return-1.png" alt="" width="400"/>
 <img src="./img/stock-return-2.png" alt="" width="400"/>
@@ -71,7 +71,7 @@ We solved three questions:
 
 This work is conducted based on the survey data of 183 countries from the Global Health Observa- tory (GHO) data repository under World Health Organization (WHO) to explore the relationship between life expectancy and some health and economical factors. Based on the best weight least square model we fitted, it can be concluded that developed countries with less alcohol consumption, longer schooling years, lower under-five deaths and higher GDP tend to larger life expectancy. Keep the other factors the same, there is a 2.59-year decrease of life expectancy for developing countries compared with developed countries; 1 litres increase of alcohol consumption per capita (15+) would lead to 0.39-year decrease of life expectancy; 1-year increase of schooling would leads to a 1.92-year increase of life expectancy; if the number of under five deaths increases to 10-fold, there would be a 1.95-year decrease of life expectancy; if the GDP increases to 10-fold, there would be a 1.43-year decrease of life expectancy. Furthermore, the effects of these significant factors (except status) are the same among developing and developed countries.
 
-<a link="https://github.com/mengtzhou/data-analysis-projects/blob/main/life-expectancy-explanation.pdf">Report</a>
+<a href="https://github.com/mengtzhou/data-analysis-projects/blob/main/life-expectancy-explanation.pdf">See Report</a>
 
 <img src="./img/life-exp-1.png" alt="" width="700"/>
 <img src="./img/life-exp-2.png" alt="" width="700"/>
